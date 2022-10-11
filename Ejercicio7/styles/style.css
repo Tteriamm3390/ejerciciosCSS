@@ -5,12 +5,29 @@ section {
     background-color: navy;
 
     /* Your code here: */
-
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content:space-between;
+    row-gap: 40px;
+    flex-wrap: wrap;
+  
 }
 
 div {
     /* Your code here: */
+background-color: brown;
+width: 200px;
+height: 100px;
 
+}
 
+.divleft{
+ margin-left: 5%;
+ 
+}
+
+.divright{
+    margin-right: 5%;
+   
 }
