@@ -1,0 +1,29 @@
+section {
+    width: 1000px;
+    height: fit-content;
+    margin: 3rem auto;
+    padding: 1rem 0;
+    background-color: navy;
+
+    /* Your code here: */
+   position:relative;
+
+}
+
+div {
+    width: 250px;
+    height: 10px;
+    background-color: brown;
+
+    /* Your code here: */
+}
+
+#div1{
+   position:absolute ;
+   right: 20%;
+}
+
+#div2{
+    position:absolute ;
+    left: 20%;
+}
