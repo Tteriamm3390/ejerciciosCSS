@@ -1,0 +1,159 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: pink;
+    
+}
+
+#container{
+    width: 300px;
+    height: 550px;
+    background-color: white;
+    margin: auto;
+    display: grid;
+    grid-template-areas:"header header"
+                        "nav nav"
+                        "main main"
+                        "sidebar sidebar"
+                        "ads ads" 
+                        "footer footer";
+}
+
+header{
+    height: 30px;
+    grid-area: header;
+    border: 2px solid red;
+    padding-left: 5px;
+}
+
+nav{
+    height: 30px;
+    grid-area: nav;
+    border: 2px solid red; 
+    margin-top: 15px;
+    padding-left: 5px;
+}
+
+main{
+    height: 300px;
+    grid-area: main;
+    border: 2px solid red;
+    margin-top: 15px;
+    padding-left: 5px;
+}
+
+#sidebar{
+    height: 30px;
+    grid-area: sidebar;
+    border: 2px solid red;
+    margin-top: 15px;
+    padding-left: 5px;
+}
+
+#ads{
+    height: 30px;
+    grid-area: ads;
+    border: 2px solid red;
+    margin-top: 15px;
+    padding-left: 5px;
+}
+
+footer{
+    height: 30px;
+    grid-area: footer;
+    border: 2px solid red;
+    margin-top: 15px;
+    padding-left: 5px;
+}
+
+@media (min-width: 350px) and (max-width: 750px){
+
+    #container{
+    width:  600px;
+    height: 550px;
+    background-color: white;
+    margin: auto;
+    display: grid;
+    grid-template-areas:"header header"
+                        "nav nav"
+                        "sidebar main"
+                        "ads ads" 
+                        "footer footer";
+    }
+
+    header{
+        width: 600px; 
+    }
+
+    nav{
+        width: 600px; 
+    }
+
+    #sidebar{
+        width: 150px;
+        height:300px; 
+    }
+
+    main{
+        width: 400px; 
+    }
+
+    #ads{
+        width: 600px; 
+    }
+
+    footer{
+        width: 600px; 
+    }
+}
+
+
+@media (min-width: 751px) and (max-width: 1200px){
+
+    #container{
+    width:  800px;
+    height: 480px;
+    background-color: white;
+    margin: auto;
+    display: grid;
+    grid-template-areas:"header header header"
+                        "sidebar nav ads"
+                        "sidebar main ads"
+                        "footer  footer footer";
+    }
+
+    header{
+        width: 800px; 
+    }
+
+    nav{
+        width: 500px; 
+    }
+
+    #sidebar{
+        width: 150px;
+        height:365px; 
+    }
+
+    main{
+        width: 500px; 
+    }
+
+    #ads{
+        width: 125px; 
+        height:365px;
+    }
+
+    footer{
+        width: 800px; 
+    }
+}
+
+
+
+
+
