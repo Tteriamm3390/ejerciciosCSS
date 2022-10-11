@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+#content{
+    margin-top: 200px;
+    margin-left: 200px;
+    background-image: url(/Miniproyecto/images/olivaoil.jpg);
+    width:300px;
+    height: 300px;
+}
+
+div {
+ width: 150px;
+ height: 50px;
+ background: goldenrod;
+ transition: width 2s, height 4s;
+}
+  
+div:hover {
+width: 200px;
+height: 200px;
+}
+
+h1:hover + p {
+font-family:'Times New Roman', Times, serif;
+color: black;
+position:absolute;
+margin-left: 60px;
+display:contents; 
+  }
+
+p{
+display: none;
+}
+button{
+background-color: black;
+width: 100px;
+height: 30px;
+position: absolute;
+top:465px;
+left: 205px;
+border: none;
+border-radius: 4px;
+color: goldenrod;
+}
+
