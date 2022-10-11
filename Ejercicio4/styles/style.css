@@ -1,0 +1,41 @@
+*{ margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: chocolate;
+}
+
+#contenedor{
+    width: 800px;
+    height: 600px;
+    background-color: black;
+    margin: 0.5em auto;
+    padding: 0.5em;
+    position: relative;
+}
+
+
+#burguer1{
+ width: 40px;
+ height: 2px;
+ background-color: white;
+ position: absolute;
+ top: 5px;
+}
+
+#burguer2{
+width: 40px;
+height: 2px;
+background-color: white;
+position: absolute;
+top: 15px;
+}
+
+#burguer3{
+width: 40px;
+height: 2px;
+background-color: white;
+position: absolute;
+top: 25px;
+}

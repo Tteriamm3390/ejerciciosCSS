@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: black;
+}
+
+#contenedor{
+ width:1000px ;
+ height: 600px;
+ background-color: aqua;
+ position: relative;
+ margin: 0.5em auto;
+ padding: 0.5em;
+ 
+}
+
+#div1{
+    background-color: blue;
+    width:160px;
+    height: 160px;
+    position: absolute;
+    top: 0;
+}
+
+#div2{
+    background-color: yellow;
+    width:160px;
+    height: 200px;
+    position: absolute;
+    top: 70px;
+    left: 60px;
+}
+
+#div3{
+    background-color: red;
+    width:250px;
+    height: 100px;
+    position: absolute;
+    top:250px
+}
+
+#div4{
+    background-color: blueviolet;
+    width:50px;
+    height: 300px;
+    position: absolute; 
+    left: 230px;     
+}
